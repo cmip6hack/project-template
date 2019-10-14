@@ -1,3 +1,8 @@
+"""This is a general purpose module containing routines
+(a) that are used in multiple notebooks; or 
+(b) that are complicated and would thus otherwise clutter notebook design.
+"""
+
 import re
 import socket
 
