@@ -114,7 +114,6 @@ dependencies:
 - zarr
 - pip:
   - git+https://github.com/ian-r-rose/dask-labextension.git@de-asyncify#egg=dask_labextension
-  - git+https://github.com/andersy005/intake-esm.git@refactor#egg=intake-esm
   - graphviz
   - ncar-jobqueue
   - intake-esm
