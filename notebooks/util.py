@@ -12,4 +12,12 @@ def is_ncar_host():
     
     return any([re.compile(ncar_host).search(hostname) 
                 for ncar_host in ['cheyenne', 'casper', 'hobart']])
-    
+
+def create_dask_cluster():
+    if is_ncar_host():
+        from dask_jobqueue import PBSCluster
+        return PBSCluster()
+    else:
+        from dask_kubernetes import KubeCluster
+        return KubeCluster()
+        
