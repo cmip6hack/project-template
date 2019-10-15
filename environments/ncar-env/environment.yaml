@@ -37,7 +37,6 @@ dependencies:
 - holoviews
 - hvplot
 - intake
-# - intake-esm # pending merge of git+https://github.com/andersy005/intake-esm.git@refactor#egg=intake-esm
 - intake-stac
 - intake-xarray
 - ipyleaflet
@@ -118,3 +117,4 @@ dependencies:
   - git+https://github.com/andersy005/intake-esm.git@refactor#egg=intake-esm
   - graphviz
   - ncar-jobqueue
+  - intake-esm

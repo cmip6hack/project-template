@@ -45,7 +45,6 @@ dependencies:
   # intake-related
   - intake
   - intake-xarray
-  - intake-esm
   # - intake-stac
   # zarr-related
   - zarr
@@ -65,3 +64,5 @@ dependencies:
   - pytide
   - pyinterp
   - pip
+  - pip:
+    - intake-esm
