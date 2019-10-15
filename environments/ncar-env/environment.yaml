@@ -37,7 +37,6 @@ dependencies:
 - holoviews
 - hvplot
 - intake
-- intake-esm>=2019.10.15
 - intake-stac
 - intake-xarray
 - ipyleaflet
@@ -117,3 +116,4 @@ dependencies:
   - git+https://github.com/ian-r-rose/dask-labextension.git@de-asyncify#egg=dask_labextension
   - graphviz
   - ncar-jobqueue
+  - intake-esm
